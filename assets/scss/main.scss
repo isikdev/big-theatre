@@ -5,6 +5,7 @@
 @import "_root";
 @import "_reset";
 @import "_assets";
+@import "_table";
 .navbar {
     padding: 20px 0 0 0;
     &__bottom {
@@ -233,6 +234,37 @@
                 background-color: $gold;
                 color: #fff;
             }
+        }
+    }
+}
+.table {
+    padding: 70px 0 20px 0;
+    border-bottom: 3px solid $gold4;
+    &__intro {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link-container {
+        display: flex;
+    }
+    &__intro-title {
+        display: flex;
+        align-items: center;
+        h2 {
+            font-size: 30px;
+            line-height: 42px;
+            margin-left: 12px;
+        }
+    }
+    &__link-item {
+        display: flex;
+        align-items: center;
+        margin: 0 5px;
+        a {
+            margin: 0 6px;
+            text-decoration: none;
+            color: $black;
+            font-weight: 500;
         }
     }
 }
