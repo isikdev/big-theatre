@@ -15,10 +15,17 @@ $(document).ready(function() {
         img.toggleClass('rotated');
     });
 });
-$('.popular__slider-wrapper').slick({
+$('.popular__slider-wrapper, .webalbum').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     dots: true,
-    prevArrow: $('.slick-left-prev'),
-    nextArrow: $('.slick-right-next'),
+    prevArrow: $('.slick-left-prev, .slick-left-trans'),
+    nextArrow: $('.slick-right-next, .slick-right-trans'),
+});
+$('.webalbum').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    dots: true,
+    prevArrow: $('.slick-left-trans'),
+    nextArrow: $('.slick-right-trans'),
 });
