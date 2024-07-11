@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Главная - Большой театр</title>
+        <title>Репертуар - Большой театр</title>
 
         <!-- favicon -->
         <link rel="apple-touch-icon" sizes="180x180"
@@ -59,9 +59,10 @@
                         <div class="navbar__bottom">
                             <nav>
                                 <ul>
-                                    <li class="navbar__link-active"><img
+                                    <li><img
                                             src="./assets/img/ico/navbar/theater.svg"
-                                            alt="Афиша театра"><a href="#">Афиша
+                                            alt="Афиша театра"><a
+                                            href="./index.html">Афиша
                                             театра</a></li>
                                     <li><img
                                             src="./assets/img/ico/navbar/schema.svg"
@@ -71,10 +72,10 @@
                                             src="./assets/img/ico/navbar/premyer.svg"
                                             alt="Премьеры"><a href="#">Премьеры
                                             <span>8</span></a></li>
-                                    <li><img
+                                    <li class="navbar__link-active"><img
                                             src="./assets/img/ico/navbar/repertuar.svg"
                                             alt="Репертуар"><a
-                                            href="./repertuar.html">Репертуар</a></li>
+                                            href="#">Репертуар</a></li>
                                     <li><img
                                             src="./assets/img/ico/navbar/delivery.svg"
                                             alt="Доставка и оплата"><a
@@ -95,9 +96,12 @@
             </section>
         </header>
         <main>
-            <section class="info">
+            <section class="info repertuar">
                 <div class="container">
                     <div class="info__content">
+                        <div class="repertuar__subtitle">
+                            <a href="./index.html"><span>Билеты в Большой театр</span> / Репертуар</a>
+                        </div>
                         <div class="info__ticket">
                             <h2>билеты</h2>
                             <img src="./assets/img/ticket.png" alt="ticket">
@@ -167,9 +171,15 @@
                     <div class="table__content">
                         <div class="table__intro">
                             <div class="table__intro-title">
-                                <img src="./assets/img/ico/theatre-black.svg"
+                                <img src="./assets/img/ico/repertuar.svg"
                                     alt="theater">
-                                <h2>Афиша Большого театра</h2>
+                                <div class="table__intro-subtitle">
+                                    <h2>Репертуар Большого театра</h2>
+                                    <p>
+                                        Список спектаклей, которые можно увидеть
+                                        на сценах Большого театра в этом сезоне
+                                    </p>
+                                </div>
                             </div>
                             <div class="table__link-container">
                                 <div class="table__link-item">
@@ -196,454 +206,225 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="table__wrapper">
-                            <table>
-                                <tbody>
-                                    <th>
-                                        <td>
-                                            <div class="table__item-date">
-                                                <h2>14</h2>
-                                                <p>
-                                                    МАЯ 2024
-                                                </p>
-                                                <p>
-                                                    ВТ
-                                                    19:00
-                                                </p>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-img">
-                                                <img
-                                                    src="./assets/img/theatre-item.png"
-                                                    alt="theater">
-                                                <span
-                                                    class="table__item-img-ico">+12</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-title">
-                                                <h2>Жизель</h2>
-                                                <p>Балет в двух действиях в
-                                                    редакции
-                                                    Ю.
-                                                    Григоровича</p>
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/new_theatre-20.svg"
-                                                        alt="Новая сцена">Новая
-                                                    сцена</a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-price">
-                                                <h3>от 4 500 руб.</h3>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-link">
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/click.svg"
-                                                        alt="click">Выбрать
-                                                    билеты</a>
-                                            </div>
-                                        </td>
-                                    </th>
-                                </tbody>
-                                <tbody>
-                                    <th>
-                                        <td>
-                                            <div class="table__item-date">
-                                                <h2>14</h2>
-                                                <p>
-                                                    МАЯ 2024
-                                                </p>
-                                                <p>
-                                                    ВТ
-                                                    19:00
-                                                </p>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-img">
-                                                <img
-                                                    src="./assets/img/theatre-item.png"
-                                                    alt="theater">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-title">
-                                                <h2>Жизель</h2>
-                                                <p>Балет в двух действиях в
-                                                    редакции
-                                                    Ю.
-                                                    Григоровича</p>
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/new_theatre-20.svg"
-                                                        alt="Новая сцена">Новая
-                                                    сцена</a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-price">
-                                                <h3>от 4 500 руб.</h3>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-link">
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/click.svg"
-                                                        alt="click">Выбрать
-                                                    билеты</a>
-                                            </div>
-                                        </td>
-                                    </th>
-                                </tbody>
-                                <tbody>
-                                    <th>
-                                        <td>
-                                            <div class="table__item-date">
-                                                <h2>14</h2>
-                                                <p>
-                                                    МАЯ 2024
-                                                </p>
-                                                <p>
-                                                    ВТ
-                                                    19:00
-                                                </p>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-img">
-                                                <img
-                                                    src="./assets/img/theatre-item.png"
-                                                    alt="theater">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-title">
-                                                <h2>Жизель</h2>
-                                                <p>Балет в двух действиях в
-                                                    редакции
-                                                    Ю.
-                                                    Григоровича</p>
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/new_theatre-20.svg"
-                                                        alt="Новая сцена">Новая
-                                                    сцена</a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-price">
-                                                <h3>от 4 500 руб.</h3>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-link">
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/click.svg"
-                                                        alt="click">Выбрать
-                                                    билеты</a>
-                                            </div>
-                                        </td>
-                                    </th>
-                                </tbody>
-                                <tbody>
-                                    <th>
-                                        <td>
-                                            <div class="table__item-date">
-                                                <h2>14</h2>
-                                                <p>
-                                                    МАЯ 2024
-                                                </p>
-                                                <p>
-                                                    ВТ
-                                                    19:00
-                                                </p>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-img">
-                                                <img
-                                                    src="./assets/img/theatre-item.png"
-                                                    alt="theater">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-title">
-                                                <h2>Жизель</h2>
-                                                <p>Балет в двух действиях в
-                                                    редакции
-                                                    Ю.
-                                                    Григоровича</p>
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/new_theatre-20.svg"
-                                                        alt="Новая сцена">Новая
-                                                    сцена</a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-price">
-                                                <h3>от 4 500 руб.</h3>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-link">
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/click.svg"
-                                                        alt="click">Выбрать
-                                                    билеты</a>
-                                            </div>
-                                        </td>
-                                    </th>
-                                </tbody>
-                                <tbody>
-                                    <th>
-                                        <td>
-                                            <div class="table__item-date">
-                                                <h2>14</h2>
-                                                <p>
-                                                    МАЯ 2024
-                                                </p>
-                                                <p>
-                                                    ВТ
-                                                    19:00
-                                                </p>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-img">
-                                                <img
-                                                    src="./assets/img/theatre-item.png"
-                                                    alt="theater">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-title">
-                                                <h2>Жизель</h2>
-                                                <p>Балет в двух действиях в
-                                                    редакции
-                                                    Ю.
-                                                    Григоровича</p>
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/new_theatre-20.svg"
-                                                        alt="Новая сцена">Новая
-                                                    сцена</a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-price">
-                                                <h3>от 4 500 руб.</h3>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-link">
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/click.svg"
-                                                        alt="click">Выбрать
-                                                    билеты</a>
-                                            </div>
-                                        </td>
-                                    </th>
-                                </tbody>
-                                <tbody>
-                                    <th>
-                                        <td>
-                                            <div class="table__item-date">
-                                                <h2>14</h2>
-                                                <p>
-                                                    МАЯ 2024
-                                                </p>
-                                                <p>
-                                                    ВТ
-                                                    19:00
-                                                </p>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-img">
-                                                <img
-                                                    src="./assets/img/theatre-item.png"
-                                                    alt="theater">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-title">
-                                                <h2>Жизель</h2>
-                                                <p>Балет в двух действиях в
-                                                    редакции
-                                                    Ю.
-                                                    Григоровича</p>
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/new_theatre-20.svg"
-                                                        alt="Новая сцена">Новая
-                                                    сцена</a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-price">
-                                                <h3>от 4 500 руб.</h3>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-link">
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/click.svg"
-                                                        alt="click">Выбрать
-                                                    билеты</a>
-                                            </div>
-                                        </td>
-                                    </th>
-                                </tbody>
-                                <tbody>
-                                    <th>
-                                        <td>
-                                            <div class="table__item-date">
-                                                <h2>14</h2>
-                                                <p>
-                                                    МАЯ 2024
-                                                </p>
-                                                <p>
-                                                    ВТ
-                                                    19:00
-                                                </p>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-img">
-                                                <img
-                                                    src="./assets/img/theatre-item.png"
-                                                    alt="theater">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-title">
-                                                <h2>Жизель</h2>
-                                                <p>Балет в двух действиях в
-                                                    редакции
-                                                    Ю.
-                                                    Григоровича</p>
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/new_theatre-20.svg"
-                                                        alt="Новая сцена">Новая
-                                                    сцена</a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-price">
-                                                <h3>от 4 500 руб.</h3>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-link">
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/click.svg"
-                                                        alt="click">Выбрать
-                                                    билеты</a>
-                                            </div>
-                                        </td>
-                                    </th>
-                                </tbody>
-                                <tbody>
-                                    <th>
-                                        <td>
-                                            <div class="table__item-date">
-                                                <h2>14</h2>
-                                                <p>
-                                                    МАЯ 2024
-                                                </p>
-                                                <p>
-                                                    ВТ
-                                                    19:00
-                                                </p>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-img">
-                                                <img
-                                                    src="./assets/img/theatre-item.png"
-                                                    alt="theater">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-title">
-                                                <h2>Жизель</h2>
-                                                <p>Балет в двух действиях в
-                                                    редакции
-                                                    Ю.
-                                                    Григоровича</p>
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/new_theatre-20.svg"
-                                                        alt="Новая сцена">Новая
-                                                    сцена</a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-price">
-                                                <h3>от 4 500 руб.</h3>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-link">
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/click.svg"
-                                                        alt="click">Выбрать
-                                                    билеты</a>
-                                            </div>
-                                        </td>
-                                    </th>
-                                </tbody>
-                                <tbody>
-                                    <th>
-                                        <td>
-                                            <div class="table__item-date">
-                                                <h2>14</h2>
-                                                <p>
-                                                    МАЯ 2024
-                                                </p>
-                                                <p>
-                                                    ВТ
-                                                    19:00
-                                                </p>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-img">
-                                                <img
-                                                    src="./assets/img/theatre-item.png"
-                                                    alt="theater">
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-title">
-                                                <h2>Жизель</h2>
-                                                <p>Балет в двух действиях в
-                                                    редакции
-                                                    Ю.
-                                                    Григоровича</p>
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/new_theatre-20.svg"
-                                                        alt="Новая сцена">Новая
-                                                    сцена</a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-price">
-                                                <h3>от 4 500 руб.</h3>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="table__item-link">
-                                                <a href="#"><img
-                                                        src="./assets/img/ico/click.svg"
-                                                        alt="click">Выбрать
-                                                    билеты</a>
-                                            </div>
-                                        </td>
-                                    </th>
-                                </tbody>
-                            </table>
-                            <button class="outline__btn">Показать ещё</button>
+                        <div class="repertuar__wrapper">
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/1.png"
+                                        alt="1">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Баядерка</a>
+                                    <h5>от 6 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/2.png"
+                                        alt="2">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Богема</a>
+                                    <h5>от 8 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/3.png"
+                                        alt="1">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Кармен</a>
+                                    <h5>от 6 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/1.png"
+                                        alt="1">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Баядерка</a>
+                                    <h5>от 6 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/2.png"
+                                        alt="2">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Богема</a>
+                                    <h5>от 8 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/3.png"
+                                        alt="1">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Кармен</a>
+                                    <h5>от 6 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/1.png"
+                                        alt="1">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Баядерка</a>
+                                    <h5>от 6 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/2.png"
+                                        alt="2">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Богема</a>
+                                    <h5>от 8 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/3.png"
+                                        alt="1">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Кармен</a>
+                                    <h5>от 6 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/1.png"
+                                        alt="1">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Баядерка</a>
+                                    <h5>от 6 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/2.png"
+                                        alt="2">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Богема</a>
+                                    <h5>от 8 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
+                            <div
+                                class="repertuar__card-item popular__card-item">
+                                <div class="popular__card-img">
+                                    <img src="./assets/img/cards/3.png"
+                                        alt="1">
+                                </div>
+                                <div
+                                    class="popular__card-intro repertuar__card-intro">
+                                    <p>16 МАЯ 2024<span>ЧТ 19:00</span></p>
+                                    <a class="repertuar__card-title"
+                                        href="#">Кармен</a>
+                                    <h5>от 6 200 руб.</h5>
+                                    <a class="popular__card-link-btn"
+                                        href="#"><img
+                                            src="./assets/img/ico/click.svg"
+                                            alt="click">Выбрать билеты</a>
+                                </div>
+                            </div>
                         </div>
+                        <button class="outline__btn">Показать ещё</button>
                     </div>
                 </div>
             </section>

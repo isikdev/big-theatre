@@ -156,17 +156,11 @@ table {
   padding-right: 15px;
 }
 
-.table__wrapper {
-  overflow-x: auto;
-  margin: 0 auto;
-  padding: 1rem;
-  display: block;
-  max-width: 100%;
-}
-.table__wrapper button {
+.outline__btn {
   padding: 15px 32px;
   margin: 20px auto;
   display: flex;
+  justify-content: center;
   border-radius: 36px;
   border: 3px solid rgba(198, 162, 110, 0.4);
   color: #B27214;
@@ -175,9 +169,39 @@ table {
   transition: all 0.3s ease;
   font-size: 16px;
 }
-.table__wrapper button:hover {
+.outline__btn:hover {
   background: #C6A26E;
   color: #fff;
+}
+
+.br__outline-btn {
+  padding: 15px 32px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: #fff;
+  background: #C6A26E;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  text-decoration: none;
+  max-width: 320px;
+}
+.br__outline-btn img {
+  margin: 0 12px;
+}
+.br__outline-btn:hover {
+  opacity: 0.5;
+}
+
+.table__wrapper {
+  overflow-x: auto;
+  margin: 0 auto;
+  padding: 1rem;
+  display: block;
+  max-width: 100%;
 }
 
 table {
@@ -238,7 +262,7 @@ td {
 .table__item-img-ico {
   position: absolute;
   top: 4%;
-  left: 6%;
+  left: 9%;
   z-index: 10000;
   background-color: #B27214;
   color: #fff;
@@ -321,6 +345,8 @@ table th {
 }
 .table__item-title a {
   display: flex;
+  align-items: center;
+  margin: 12px 0;
 }
 .table__item-price h3 {
   color: #AC1A01;
@@ -328,6 +354,10 @@ table th {
   line-height: 32px;
   font-weight: 500;
   margin: 50px 0;
+}
+
+.table__item-date-hol {
+  color: #F87777;
 }
 
 .pulse-icon {
@@ -663,12 +693,19 @@ table th {
   margin: 0 6px;
   text-decoration: none;
   color: #2F2F2F;
+  font-size: 18px;
   font-weight: 500;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 .table__link-item a:hover {
   opacity: 0.5;
+}
+.table__intro-subtitle h2 {
+  margin-left: 0;
+}
+.table__intro-subtitle p {
+  max-width: 560px;
 }
 
 .bilet {
@@ -964,7 +1001,7 @@ table th {
   line-height: 31px;
   color: #AC1A01;
 }
-.popular__card-intro a {
+.popular__card-link-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -979,10 +1016,10 @@ table th {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-.popular__card-intro a:hover {
+.popular__card-link-btn:hover {
   opacity: 0.5;
 }
-.popular__card-intro a img {
+.popular__card-link-btn img {
   margin: 10px;
 }
 
@@ -1116,4 +1153,100 @@ table th {
 }
 .footer__pay-ico img:nth-child(2) {
   margin: 0 10px;
+}
+
+.repertuar {
+  background-image: url("../img/rep_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 70px 0;
+}
+.repertuar__subtitle {
+  margin: 0 0 20px 0;
+}
+.repertuar__subtitle a {
+  color: #c6a26e;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-decoration: none;
+}
+.repertuar__subtitle a span {
+  text-decoration: underline;
+}
+.repertuar__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.repertuar__card-item {
+  border: 1px solid #e7dfd1;
+  padding: 10px;
+}
+.repertuar__card-intro h5 {
+  margin: 12px 0;
+}
+.repertuar__card-title {
+  font-size: 26px;
+  line-height: 34px;
+  color: #2F2F2F;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.repertuar__card-title:hover {
+  color: #B27214;
+  text-decoration: underline;
+}
+
+.perfomance {
+  background-image: url("../img/mm_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 70px 0;
+}
+.perfomance__img-ico {
+  z-index: 10000;
+  background-color: #B27214;
+  color: #fff;
+  border-radius: 36px;
+  padding: 7px 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 5px 10px;
+}
+.perfomance__title {
+  display: flex;
+  align-items: center;
+}
+.perfomance__intro h3 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 0 auto;
+}
+.perfomance__table {
+  padding: 30px 0 20px 0;
+}
+
+.schema {
+  background-image: url("../img/schema_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+}
+
+.date {
+  margin: 70px 0;
+}
+.date__intro h3 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 0 auto;
+}
+.date__calendar-wrapper {
+  margin: 50px 0;
+}
+.date__calendar-wrapper .calendar__content {
+  position: unset;
 }/*# sourceMappingURL=main.css.map */
