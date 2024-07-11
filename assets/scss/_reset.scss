@@ -1,4 +1,16 @@
 /* reset.scss */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F1EEE9;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $gold1;
+    border-radius: 10px;
+}
 
 html,
 body,

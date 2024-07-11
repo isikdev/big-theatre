@@ -13,7 +13,7 @@
         color: $gold1;
         background: transparent;
         cursor: pointer;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         font-size: 16px;
         &:hover {
             background: $gold;
@@ -28,12 +28,17 @@ table {
     border-spacing: 0;
     tbody {
         background-color: #fff;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         border-top: 2px solid $gold4;
         border-bottom: 2px solid $gold4;
         cursor: pointer;
         &:hover {
             background-color: $gold5;
+            .table__item-title {
+                h2 {
+                    border-bottom: 2px dotted $gold;
+                }
+            }
         }
     }
 }
@@ -56,16 +61,34 @@ td {
 
 .table__item-date h2 {
     margin: 0;
+    padding: 0 0 10px 0;
     font-size: 2rem;
+    border-bottom: 2px transparent;
 }
 
 .table__item-date p {
-    margin: 0;
+    margin: 10px 0;
     font-size: 1rem;
 }
 
 .table__item-img img {
     height: auto;
+}
+.table__item-img {
+    position: relative;
+}
+.table__item-img-ico {
+    position: absolute;
+    top: 4%;
+    left: 6%;
+    z-index: 10000;
+    background-color: $gold1;
+    color: #fff;
+    border-radius: 36px;
+    padding: 7px 12px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 .table__item-title a {
@@ -100,9 +123,9 @@ td {
     margin: 40px 0;
     border-radius: 5px;
     font-family: "Inter", sans-serif;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     &:hover {
-        opacity: .8;
+        opacity: 0.5;
     }
 }
 
